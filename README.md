@@ -1,2 +1,2 @@
 # Memory
-Memory Game
+Star Wars Memory Game
