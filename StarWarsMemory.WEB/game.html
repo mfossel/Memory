@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html ng-app="memorywars">
+<head>
+    <title>Star Wars Memory</title>
+    <meta charset="utf-8" />
+    <link href="style/game.css" rel="stylesheet" />
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+<body ng-controller="GameController">
+    <img src="img/title.jpg" />
+        <table>
+            <tr ng-repeat="row in memory.grid">
+                <td ng-repeat="card in row" class="container">
+                    <div class="card" ng-class="{flipped: card.flipped}" ng-click="memory.flipCard(card)">
+                        <img class="front" ng-src="img/images.duckduckgo.com.jpg" />
+                        <img class="back" ng-src="img/{{card.name}}.jpg">
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
