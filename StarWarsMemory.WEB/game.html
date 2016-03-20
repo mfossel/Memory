@@ -14,7 +14,7 @@
             <tr ng-repeat="row in memory.grid">
                 <td ng-repeat="card in row" class="container">
                     <div class="card" ng-class="{flipped: card.flipped}" ng-click="memory.flipCard(card)">
-                        <img class="front" ng-src="img/images.duckduckgo.com.jpg" />
+                        <img class="front" ng-src="img/back.jpg" />
                         <img class="back" ng-src="img/{{card.name}}.jpg">
                     </div>
                 </td>
