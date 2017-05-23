@@ -1,4 +1,4 @@
 # Memory
-<a href="http://starwarsmemorygame.azurewebsites.net/game.html">Star Wars Memory Game<a>
+Star Wars Memory Game
 
 Built with Angular JS
